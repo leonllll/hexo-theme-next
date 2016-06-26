@@ -16,10 +16,7 @@ rss:
 # Specify the date when the site was setup
 #since: 2015
 
-# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
-# See: https://support.google.com/webmasters/answer/139066
-# Tips: Before you open this tag, remeber set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
-canonical: true
+
 
 
 # ---------------------------------------------------------------
@@ -29,8 +26,8 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -59,8 +56,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -105,7 +102,7 @@ font:
     size:
 
   # Font settings for <code> and code blocks.
-  codes:
+  code:
     external: true
     family:
 
@@ -175,13 +172,6 @@ sidebar:
   #display: remove
 
 
-# Blogrolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -222,7 +212,7 @@ auto_excerpt:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 
-
+  
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -290,13 +280,6 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
-# Facebook comments plugin
-# This plugin depends on Facebook SDK.
-# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
-facebook_comments_plugin:
-  enable: false
-  num_of_posts: 10
-
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
@@ -313,15 +296,15 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_footer: 
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_footer: 
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_footer: 
 
 # Tencent analytics ID
 # tencent_analytics:
@@ -356,33 +339,22 @@ vendors:
   jquery:
 
   # Internal version: 2.1.5
-  # http://fancyapps.com/fancybox/
   fancybox:
-  fancybox_css:
 
   # Internal version: 1.0.6
-  # https://github.com/ftlabs/fastclick
   fastclick:
 
   # Internal version: 1.9.7
-  # https://github.com/tuupola/jquery_lazyload
   lazyload:
 
   # Internal version: 1.2.1
-  # http://VelocityJS.org
   velocity:
 
   # Internal version: 1.2.1
-  # http://VelocityJS.org
   velocity_ui:
 
   # Internal version: 0.7.9
-  # https://faisalman.github.io/ua-parser-js/
   ua_parser:
-
-  # Internal version: 4.4.0
-  # http://fontawesome.io/
-  fontawesome:
 
 
 # Assets
