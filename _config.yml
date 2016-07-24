@@ -6,7 +6,7 @@
 favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "LifeLog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -117,8 +117,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/leonllll
 
 
 # Social Links Icons
@@ -166,9 +166,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  display: post
+  #display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
 
@@ -228,10 +228,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: b1a1f360649fa89a56a3aad9b5efca7f
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: lifelog
 
 # Disqus
 #disqus_shortname:
@@ -247,7 +247,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -255,7 +255,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+#google_analytics: UA-81205144-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -320,7 +320,7 @@ baidu_push: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
