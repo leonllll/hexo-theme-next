@@ -119,7 +119,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/leonllll
-
+  Weibo: http://weibo.com/u/1672843017
 
 # Social Links Icons
 # Icon Mapping:
@@ -331,31 +331,38 @@ fancybox: true
 # For example
 #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
+# here we use 3 cdn vender
+# staticfile.org, bootcdn.cn and jsdelivr.net
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: vendors
 
   # Internal version: 2.1.3
-  jquery:
+  jquery: //cdn.staticfile.org/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
-  fancybox:
+  # Fancybox: http://fancyapps.com/fancybox/
+  fancybox: //cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.pack.js
+  fancybox_css: //cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
-  fastclick:
+  fastclick: //cdn.staticfile.org/fastclick/1.0.6/fastclick.min.js
 
   # Internal version: 1.9.7
-  lazyload:
+  lazyload: //cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js
 
   # Internal version: 1.2.1
-  velocity:
+  velocity: //cdn.staticfile.org/velocity/1.2.3/velocity.min.js
 
   # Internal version: 1.2.1
-  velocity_ui:
+  velocity_ui: //cdn.staticfile.org/velocity/1.2.3/velocity.ui.min.js
 
   # Internal version: 0.7.9
-  ua_parser:
+  ua_parser: //cdn.jsdelivr.net/ua-parser.js/0.7.10/ua-parser.min.js
 
+  # Internal version: 4.4.0
+  # http://fontawesome.io/
+  fontawesome: //cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css
 
 # Assets
 css: css
