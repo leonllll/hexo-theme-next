@@ -6,7 +6,7 @@
 favicon: /images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "LifeLog"
+keywords: "leon lu,java,architecture,bigdata,架构,大数据"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -228,7 +228,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: b1a1f360649fa89a56a3aad9b5efca7f
+baidu_analytics: 8c9a1da6203f4cfbcbb1f61fd39a2fda
 
 # Duoshuo ShortName
 duoshuo_shortname: lifelog
@@ -284,9 +284,9 @@ facebook_sdk:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: HOMuOrSOueVnoTluLf1xhOSo-gzGzoHsz
+  app_key: jTNB8ChSEEyj85EiQ0sWSwzy
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
